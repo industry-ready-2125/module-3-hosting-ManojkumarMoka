@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-RInBOkOVsJNmn2rUfZcnoLcjyWcU/3YrU5ARg7uslhm6zioEeHvGz9cl5dU7UlKgODRfz5YUzIhTJcUpL1G2Nw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="navcontainer">
+      <div>
+        <img
+          src="https://i.dstatic.com/images/logos/main.png"
+          width="200"
+          alt="DelugeRPG"
+        />
+      </div>
+      <nav class="navbar">
+        <ul class="navlist">
+          <li>
+            <a href="/index.html">Home</a>
+          </li>
+          <li>
+            <a href="/login.html"> Login </a>
+          </li>
+          <li>
+            <a href="/register.html">Register</a>
+          </li>
+          <li>
+            <a href="/FAQ">FAQ</a>
+          </li>
+          <li>
+            <a href="/Forums">Forums </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="section2">
+      <div class="login_logo">
+        <img id="logimg" src="/img/login.png" alt="" />
+        <h1 class="title">LOGIN</h1>
+      </div>
+      <div class="box">
+        <p>DON'T HAVE AN ACCOUNT? <a href="">REGISTER NOW FOR FREE!</a></p>
+      </div>
+      <div class="logcontainer">
+        <form class="form_items" action="">
+          <h4>NICKNAME</h4>
+          <input type="text" name="nickname" id="" />
+          <h4>PASSWORD</h4>
+          <input type="password" name="password" id="password" />
+          <br />
+          <a id="form_a" href="">FORGOT PASSWORD</a>
+          <br />
+          <button>LOGIN</button>
+        </form>
+        <div class="down_box">
+          <a id href="">NEED HELP LOGGING IN OR RECOVERING YOUR ACCOUNT?</a>
+        </div>
+        <div class="down_box2">
+          <p>
+            Telling other people your password is a BAD idea. It is the top
+            reason for people losing access to their account.
+          </p>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="lisitems">
+          <ul>
+            <li>Homepage</li>
+            <li>Login</li>
+            <li>About</li>
+            <li>Update Log</li>
+            <li>Privacy</li>
+            <li>Forum</li>
+            <li>
+              Mobile Version &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp;
+            </li>
+          </ul>
+        </div>
+        <div class="copyrights">
+          <p>
+            Pokémon and respective character names/images are trademarks and
+            copyrights of their respective owners.
+          </p>
+          <p>
+            &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We are not affiliated with
+            Nintendo, The Pokémon Company Creatures Inc. or Game Freak.
+          </p>
+          <br />
+          <p>
+            No copyright or trademark infringement is intended. | Privacy Policy
+            / Terms of Service | Contact
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <style>
+    .navcontainer {
+      width: 100%;
+      height: 159px;
+      background-color: black;
+      display: flex;
+      flex-direction: row;
+    }
+    .navbar {
+      display: flex;
+      flex-direction: row;
+    }
+    .navlist {
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      width: 50%;
+      margin-left: 216px;
+      margin-top: -38px;
+    }
+    .navlist li {
+      list-style: none;
+      padding: 20px 24px;
+      font-size: 18px;
+    }
+    .navlist li a {
+      text-decoration: none;
+      color: white;
+      border: 2px solid white;
+      padding: 8px;
+      border-radius: 17px;
+    }
+    .section2 {
+      background-color: grey;
+      position: relative;
+    }
+    .login_logo {
+      display: flex;
+      flex-direction: row;
+      border: 1px solid white;
+      width: 11%;
+      margin-left: 39rem;
+      background-color: white;
+      border-radius: 24px;
+      position: relative;
+      top: 26px;
+    }
+    #logimg {
+      height: 41px;
+      width: 66px;
+      display: block;
+    }
+    .title {
+      font-size: 22px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-weight: bold;
+      margin-top: 8px;
+    }
+    .box p {
+      margin-top: 22px;
+      margin-left: 15rem;
+      font-size: 15px;
+      font-weight: bold;
+    }
+    .box p a {
+      color: white;
+    }
+    .box {
+      margin-top: 43px;
+      border: 2px solid #7e30e1;
+      background-color: #7e30e1;
+      color: white;
+      margin-left: 17rem;
+      width: 64%;
+    }
+    .logcontainer {
+      display: flex;
+      flex-direction: column;
+      border: 2px solid white;
+      margin-left: 17rem;
+      width: 64%;
+      margin-top: 10px;
+      background-color: white;
+      height: 459px;
+    }
+    .form_items {
+      margin-top: 2rem;
+      margin-left: 9rem;
+      padding-left: 128px;
+    }
+    input {
+      width: 53%;
+    }
+    .form_items h4 {
+      font-size: 15px;
+      margin-left: 7rem;
+      font-weight: bold;
+      font-family: "Times New Roman", Times, serif;
+      margin-bottom: 7px;
+    }
+    .form_items a {
+      color: black;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      margin-left: 7rem;
+      font-size: 10px;
+      margin-bottom: 3px;
+    }
+    #password {
+      margin-bottom: 22px;
+    }
+    button {
+      background-color: #350a79;
+      border-color: #2a0861;
+      color: white;
+      width: 59%;
+      margin-top: 35px;
+      height: 30px;
+      border-radius: 4px;
+      margin-left: -12px;
+      margin-bottom: 24px;
+    }
+    .down_box {
+      border: 2px solid #7e30e1;
+      background-color: #7e30e1;
+      width: 101%;
+      display: flex;
+      height: 62px;
+      margin-bottom: 27px;
+      margin-left: -7px;
+    }
+    .down_box a {
+      color: white;
+      margin-left: 14rem;
+      font-size: 15px;
+      font-weight: bold;
+      margin-top: 18px;
+    }
+    .down_box2 {
+      border: 2px solid #f57c00;
+      background-color: #f57c00;
+      width: 101%;
+      display: flex;
+      height: 62px;
+      margin-left: -7px;
+      font-size: 15px;
+      font-weight: bold;
+      color: white;
+    }
+
+    .down_box2 p {
+      color: white;
+      margin-left: 4rem;
+      font-size: 14px;
+      font-weight: bold;
+      margin-top: 24px;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    .footer {
+      display: flex;
+      flex-direction: row;
+      margin-top: 6rem;
+      background-color: black;
+      color: white;
+      border-top: 4px solid blue;
+      font-size: 14px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+    .lisitems ul {
+      list-style: none;
+      margin-left: 18rem;
+      margin-top: 46px;
+      border-right: 1px solid blue;
+    }
+    .copyrights {
+      margin-left: 11rem;
+      margin-top: 31px;
+    }
+  </style>
+</html>
