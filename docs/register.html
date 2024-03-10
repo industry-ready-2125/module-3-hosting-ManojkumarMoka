@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+  </head>
+  <body>
+    <div class="navcontainer">
+      <div>
+        <img
+          src="https://i.dstatic.com/images/logos/main.png"
+          width="200"
+          alt="DelugeRPG"
+        />
+      </div>
+      <nav class="navbar">
+        <ul class="navlist">
+          <li>
+            <a href="/index.html">Home</a>
+          </li>
+          <li>
+            <a href="/login.html"> Login </a>
+          </li>
+          <li>
+            <a href="/register.html">Register</a>
+          </li>
+          <li>
+            <a href="/FAQ">FAQ</a>
+          </li>
+          <li>
+            <a href="/Forums">Forums </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="section2">
+      <div class="login_logo">
+        <img id="logimg" src="/img/signup.png" alt="" />
+        <h1 class="title">SIGN UP</h1>
+      </div>
+      <div class="mainbox">
+        <div class="in_box">
+          <p>
+            Nickname may only contain alphabets, numbers and characters like .,-
+            and _. Try using a mix of letters and numbers for your password.
+          </p>
+        </div>
+        <div class="signcontainer">
+          <form action="" class="formitems">
+            <h4>NICKNAME</h4>
+            <input type="text" name="" id="" /><br />
+            <button id="b1">Check if Nickname is available!</button>
+            <h4 id="password">ENTER PASSWORD</h4>
+            <input type="password" name="" id="" />
+            <h4 id="password">RETYPE PASSWORD</h4>
+            <input type="password" name="" id="" />
+            <br />
+            <p>
+              By registering on this site, you agree to the
+              <a href="">Terms of Service</a>
+            </p>
+            <button id="b2">AGREE & SIGN UP!</button>
+          </form>
+        </div>
+        <div class="downbox">
+          <p>
+            Using inappropriate usernames of any sort will result in an account
+            ban.
+          </p>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="lisitems">
+          <ul>
+            <li>Homepage</li>
+            <li>Login</li>
+            <li>About</li>
+            <li>Update Log</li>
+            <li>Privacy</li>
+            <li>Forum</li>
+            <li>
+              Mobile Version &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp;
+            </li>
+          </ul>
+        </div>
+        <div class="copyrights">
+          <p>
+            Pokémon and respective character names/images are trademarks and
+            copyrights of their respective owners.
+          </p>
+          <p>
+            &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We are not affiliated with
+            Nintendo, The Pokémon Company Creatures Inc. or Game Freak.
+          </p>
+          <br />
+          <p>
+            No copyright or trademark infringement is intended. | Privacy Policy
+            / Terms of Service | Contact
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <style>
+    .navcontainer {
+      width: 100%;
+      height: 159px;
+      background-color: black;
+      display: flex;
+      flex-direction: row;
+    }
+    .navbar {
+      display: flex;
+      flex-direction: row;
+    }
+    .navlist {
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      width: 50%;
+      margin-left: 216px;
+      margin-top: -38px;
+    }
+    .navlist li {
+      list-style: none;
+      padding: 20px 24px;
+      font-size: 18px;
+    }
+    .navlist li a {
+      text-decoration: none;
+      color: white;
+      border: 2px solid white;
+      padding: 8px;
+      border-radius: 17px;
+    }
+    .section2 {
+      background-color: grey;
+      position: relative;
+    }
+    .login_logo {
+      display: flex;
+      flex-direction: row;
+      border: 1px solid white;
+      width: 12%;
+      margin-left: 42rem;
+      background-color: white;
+      border-radius: 24px;
+      position: relative;
+      top: 26px;
+    }
+    #logimg {
+      height: 41px;
+      width: 58px;
+      display: block;
+    }
+    .title {
+      font-size: 24px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-weight: bold;
+      margin-top: 8px;
+      color: black;
+    }
+    .mainbox {
+      border: white;
+      background-color: white;
+      height: 620px;
+      margin-left: 17rem;
+      margin-top: 56px;
+      width: 68%;
+    }
+    .in_box {
+      border: 2px solid #7e30e1;
+      background-color: #7e30e1;
+    }
+    .in_box p {
+      color: azure;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      font-weight: bold;
+      margin: 30px 0px 21px 0px;
+    }
+    .signcontainer {
+      display: flex;
+      flex-direction: column;
+      margin-left: 17rem;
+      width: 64%;
+      margin-top: 10px;
+    }
+    .formitems {
+      margin-top: 2rem;
+      margin-left: 4rem;
+    }
+    input {
+      width: 55%;
+      height: 23px;
+    }
+    .formitems h4 {
+      font-size: 15px;
+      margin-left: 7rem;
+      font-weight: bold;
+      font-family: "Times New Roman", Times, serif;
+      margin-bottom: 7px;
+    }
+    button {
+      margin-top: 2rem;
+      margin-left: 3rem;
+      height: 30px;
+      cursor: pointer;
+    }
+    #password {
+      margin-left: 5rem;
+    }
+    .formitems p {
+      margin-left: -2rem;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+    .formitems p a {
+      color: black;
+    }
+    #b2 {
+      margin-left: 1rem;
+      border-radius: 4px;
+      color: #fff;
+      background-color: #004b9a;
+      border-color: #003a76;
+      width: 50%;
+      height: 40px;
+      margin-bottom: 27px;
+    }
+    #b1 {
+      background-color: #690cde;
+      border-color: #5e0bc6;
+      border-radius: 4px;
+      color: white;
+      font-weight: bold;
+    }
+    .downbox {
+      border: 2px solid #7e30e1;
+      background-color: #7e30e1;
+    }
+    .downbox p {
+      color: azure;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      font-weight: bold;
+      margin: 30px 0px 21px 208px;
+    }
+    .footer {
+      display: flex;
+      flex-direction: row;
+      margin-top: 6rem;
+      background-color: black;
+      color: white;
+      border-top: 4px solid blue;
+      font-size: 14px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+    .lisitems ul {
+      list-style: none;
+      margin-left: 18rem;
+      margin-top: 46px;
+      border-right: 1px solid blue;
+    }
+    .copyrights {
+      margin-left: 11rem;
+      margin-top: 31px;
+    }
+  </style>
+</html>
